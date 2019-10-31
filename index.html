@@ -8,29 +8,43 @@
     <link rel="stylesheet" href="css/style1.css" />
     <link rel="stylesheet" href="css/style2.css"/>
     <link href="https://fonts.googleapis.com/css?family=Radley&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
    
-
+<div class="container">
 <header>
     <div class="barMenu">
         <ul id="barMenu">
-            <li><a href="#" class="barLien">accueil</a></li>
-            <li><a href="#" class="barLien">presentation</a></li>
-            <li><a href="#" class="barLien">filiere</a></li>
+            <li><a href="index.html" class="barLien">accueil</a></li>
+            <li><a href="vue/presentation.php" class="barLien">A propos</a></li>
+            <li><a href="vue/admissins.php" class="barLien">ADMISSINS</a></li>
             <li><a href="vue/inscriptions.php" class="barLien">inscriptions</a></li>
-            <li><a href="#" class="barLien">contact</a></li>
-            <li><a href="#" class="barLien">contact</a></li>
+            <li><a href="vue/emplois.php" class="barLien">emplois du temps</a></li>
             <li><a href="vue/contacts.php" class="barLien">contacts</a></li>
 
             
         </ul>
     </div>
 </header>
-    <div>
-        <img src="images/logo.png" height="200px" width="90%">
-    </div>
+<div class="container">
+    <div class="row">
 
+            <div class="col-8" style="border: 2px red solid;">
+                <img src="images/logo.png" height="200px" width="100%" >
+            </div>
+            
+            <div class="col-4">
+                    <br><br><br>
+                <H3>Rejoignez-nous | Webmail </H3>
+                <img src="images/11_facebook.png" height="25px" width="20%" >
+                <img src="images/0_twitter.png" height="20px" width="20%" >
+                <img src="images/1033_1033_letter_32.png " height="25px" width="20%" >
+                <img src="images/13_youtube.png" height="25px" width="20%" >
+            </div>
+   </div>
+ 
        <!--<div divheader>
            <div>
                <figure>
@@ -76,12 +90,60 @@
 
                     <div class="divfoote">
                             <div class="divfoote1">
-                                    
+                            <!--      
                             <img src="images/imgisi.jpg" height="230px" width="100%" class="imgfloatleft"/>
+                            -->
+
+
+                            <div class="bd-example">
+                                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                      <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="images/imgisi.jpg" class="d-block w-100" alt="..." height="230px" width="120%" class="imgfloatleft"">
+                                          <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p style="color: black;">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="images/test.jpg" class="d-block w-100" alt="..." height="230px" width="120%" class="imgfloatleft">
+                                          <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p style="color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                          </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="images/image5.PNG" class="d-block w-100" alt="..." height="230px" width="120%" class="imgfloatleft">
+                                          <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p style="color: black;">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </div>
+                                  </div>
+                        
+                        
+                        
+
                             <h1 >MOT DU FONDATEUR</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
                             
                             </div>  
                             <div class="divfoote2"> 
@@ -101,10 +163,38 @@
                                     </div>
                                                 <br><br><br>
                                                 <!--<h1>Ils nous ont fait confiance </h1>-->
-                                                <H1 >A LA UNE</H1>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero qui fugiat neque, hic quibusdam minima impedit quia pariatur distinctio recusandae adipisci expedita itaque excepturi autem necessitatibus voluptates eius suscipit optio.</p>        
-                           
-                            
+                                              
+                              <nav class="agenda" style="background-image: url('images/images444.jpg') ;">
+                              <h1 >Agenda</h1>
+                              
+                               <span class="agenda1" >
+                                   <p style="border: 2px black solid; background-color: blanchedalmond;">
+                                   
+                                        <b> 9:00 am to 6:00 pm</b>
+                                    
+                                    <b>Sicap Mbao </b>
+
+                                    <b>Cérémonie de distribution de dattes et de nourritures</b>
+                                    </p>
+                                </span>
+                                <span class="agenda1" >
+                                        <p style="border: 2px black solid; background-color: blanchedalmond;">
+                                                <b> 9:00 am to 6:00 pm  </b>
+                                                <b >théâtre de Dakar</b>
+                                                  <b>Cérémonie de distribution de dattes et de nourritures</b>
+                                         </p>
+                                     </span>
+                                     <span class="agenda1" >
+                                            <p style="border: 2px black solid; background-color: blanchedalmond;">
+                                                    <b>9:00 am to 5:00 pm</b>
+                                                    <b> Grand théâtre de Dakar Diamaguene Sicap Mbao </b>
+
+                                                <b>Cérémonie culturelle, économique et sociale</b>
+                                      </p>
+                                         </span>
+                               
+
+                                </nav>
                                 </div>  
                              
                            </div>  
@@ -112,30 +202,41 @@
                 
      </main>
 
+
+
+
        <footer>
            <div class="divfooter">
              <div class="divfooter1">
                <P class="imgfloatleft">
                 <H2>PRÉSENTATION DE ASKHABOU RASSOULOULAHI</H2>
-               <img src="images/0_fasade.jpg" width="20%" height="150" style="float: left;"> L'éducation en général et la formation professionnelle en particulier, figure depuis l'indépendance parmi les objectifs prioritaires de la stratégie de développement </div>  
+               <img src="images/0_fasade.jpg" width="30%" height="150" style="float: left;"> 
+               Bref aperçu sur un enseignement en continuité Cette présentation, vise entre autre, à donner un aperçu global sur l’historique, l’encrage et la continuité de l’enseignement arabo-islamique
+                et la mémorisation du Saint Coran dans l’institution ASKHABOU RASSOULOULAHI...<a href="#">Lir la suite</a> </div>  
              <div class="divfooter2"> 
                 <P class="imgfloatleft">
                     <h2>PRÉSENTATION DU GROUPE ASKHABOU RASSOULOULAHI</h2>
-                    <img src="images/0_groupe.png" width="20%" height="150" style="float: left;">ISI est un institut délocalisé en Afrique et à l'intérieur du Sénégal. Il offre un ensemble d'écoles et de centres. </div>  
+                    <img src="images/0_groupe.png" width="30%" height="150" style="float: left;">ISI est un institut délocalisé en Afrique et à l'intérieur du Sénégal. Il offre un ensemble d'écoles et de centres. </div>  
               <div class="divfooter3">
                     <P class="imgfloatleft">
                         <h2>MEDIATHEQUE DE L'INSTITUT ASKHABOU RASSOULOULAHI</h2>
 
 
-                        <li ><FONT SIZE=2><a href="#">Videotehque groupe </FONT></a></li></BR>
-                        <li><FONT SIZE=1></FONT><a href="#">Nos Galeries photo</a></li><BR>
-                            <li><FONT SIZE=1></FONT><a href="#">Nos temignages</FONT></a></li><BR>
-                                   <li><FONT SIZE=1></FONT><a href="#">Anciens eleves</FONT></a></li><BR>
+                        <li style="float: left;"><FONT SIZE=5><a href="#">Videotehque groupe </FONT></a></li></BR>
+                        <li style="float: left;"><FONT SIZE=5><a href="#">Nos Galeries photo</a></li><BR>
+                        <li style="float: left;"><FONT SIZE=5><a href="#">Nos temignages</FONT></a></li><BR>
+                        <li style="float: left;"><FONT SIZE=5><a href="#">Anciens eleves</FONT></a></li><BR>
                 </div>  
             </div>  
-            <br><br>   
+            <br><br>
+              <center><hr width="70%" style="color: honeydew;"></center>
+            <br>   
            &COPY; copyright ASKHABOU RASSOULOULAHI
        </footer>
-        
+    </div>      
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </html>
